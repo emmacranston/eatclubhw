@@ -50,7 +50,10 @@ Questions
 **3. Based on your findings, make a business recommendation for a specific part of the company and justify why you'd reccommend that.**
 
 - Send a survey to the companies who cancel their orders frequently to find out why they tend to cancel at such a high rate. This will help EAT club understand why cancellations happen, and perhaps make product decisions in light of that information in order to keep cancellations to a minimum.
+- It would make sense to use tags in order to make order recommendations to users. In particularly, foods  
 
 **4. After looking at the above questions, what data would you be most interested in adding to the analysis? How would you measure them?**
 
 - With regard to companies that cancel frequently, loading the survey results (if a survey is sent out) into the database and implementing tagging for why a cancellation occured would help EAT Club avoid costs associated with cancellations.
+- When people order, do you make suggestions based on tags they've previously used? If so, I'd love to see how often those suggestions are correct. " Correctness," here, would be measured by whether somebody goes with a suggestion. That measure could then be used to refine the tagging model!
+- I'd also like to see financial data- how much money does each order typically bring in? Does one restaurant yield a higher profit for EAT Club? Can we make product suggestions that point people one way or the other? And what is their spend tolerance? That would simply be a table with the item information and how much its regular price vs. subsidized price is, along with EAT Club's take from the order.
